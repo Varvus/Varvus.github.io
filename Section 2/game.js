@@ -30,7 +30,9 @@ class Sprite {
 
     render(){
         this.context.drawImage(
-            this.image, 200, 100
+            this.image, 
+            200, 
+            100
         )
     }
 }
